@@ -1,8 +1,8 @@
-package com.dandh.userservice;
+package com.xyz.userservice;
 
-import com.dandh.userservice.domain.Role;
-import com.dandh.userservice.domain.User;
-import com.dandh.userservice.service.UserService;
+import com.xyz.userservice.domain.Role;
+import com.xyz.userservice.domain.User;
+import com.xyz.userservice.service.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

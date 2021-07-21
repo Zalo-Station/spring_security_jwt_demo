@@ -1,4 +1,4 @@
-package com.dandh.userservice;
+package com.xyz.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

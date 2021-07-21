@@ -1,4 +1,4 @@
-package com.dandh.userservice.domain;
+package com.xyz.userservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

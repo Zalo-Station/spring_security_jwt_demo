@@ -1,9 +1,9 @@
-package com.dandh.userservice.service;
+package com.xyz.userservice.service;
 
-import com.dandh.userservice.domain.Role;
-import com.dandh.userservice.domain.User;
-import com.dandh.userservice.repository.RoleRepository;
-import com.dandh.userservice.repository.UserRepository;
+import com.xyz.userservice.domain.Role;
+import com.xyz.userservice.domain.User;
+import com.xyz.userservice.repository.RoleRepository;
+import com.xyz.userservice.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

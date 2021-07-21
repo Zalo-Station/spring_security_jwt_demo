@@ -1,7 +1,6 @@
-package com.dandh.userservice.repository;
+package com.xyz.userservice.repository;
 
-import com.dandh.userservice.domain.Role;
-import com.dandh.userservice.domain.User;
+import com.xyz.userservice.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

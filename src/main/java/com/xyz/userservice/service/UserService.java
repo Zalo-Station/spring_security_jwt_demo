@@ -1,8 +1,7 @@
-package com.dandh.userservice.service;
+package com.xyz.userservice.service;
 
-import com.dandh.userservice.domain.Role;
-import com.dandh.userservice.domain.User;
-import org.springframework.stereotype.Service;
+import com.xyz.userservice.domain.Role;
+import com.xyz.userservice.domain.User;
 
 import java.util.List;
 

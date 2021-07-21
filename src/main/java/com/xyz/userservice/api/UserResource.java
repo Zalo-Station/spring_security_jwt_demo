@@ -1,8 +1,8 @@
-package com.dandh.userservice.api;
+package com.xyz.userservice.api;
 
-import com.dandh.userservice.domain.Role;
-import com.dandh.userservice.domain.User;
-import com.dandh.userservice.service.UserService;
+import com.xyz.userservice.domain.Role;
+import com.xyz.userservice.domain.User;
+import com.xyz.userservice.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.http.ResponseEntity;

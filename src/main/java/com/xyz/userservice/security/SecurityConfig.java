@@ -39,7 +39,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.sessionManagement().sessionCreationPolicy(STATELESS);
         // specific user only get this route
 //        http.authorizeRequests().antMatchers("/login").permitAll();
-        http.authorizeRequests().antMatchers("/api/v1/users/login/**").permitAll();
+        http.authorizeRequests().antMatchers("/api/v1/users/login/**", "/token/refresh/**").permitAll();
         http.authorizeRequests().antMatchers(GET, "api/v1/users/**").hasAnyAuthority("ROLE_USER");
         http.authorizeRequests().antMatchers(POST, "/api/v1/users/save/**").hasAnyAuthority("ROLE_ADMIN");
         // Authenticated users only
